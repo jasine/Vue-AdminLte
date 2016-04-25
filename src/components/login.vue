@@ -57,13 +57,13 @@
           return{
             messages: '',
             success: false,
-            body_class: 'hold-transition login-page'
+            body_class: 'hold-transition login-page '
           }
         },
         methods: {
           login: function(){
             this.$parent.$data.login = false;
-            this.$parent.$data.body_class = "sidebar-mini skin-blue-light";
+            this.$parent.$data.body_class = "sidebar-mini skin-blue";
           }
         }
       }

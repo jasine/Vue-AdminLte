@@ -62,3 +62,8 @@
     }
   }
 </script>
+<style>
+.main-sidebar, .left-side{
+  width: 135px;
+}
+</style>

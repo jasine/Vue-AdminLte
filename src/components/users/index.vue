@@ -23,7 +23,6 @@
 <hr>
 <alert type="success" >
   <strong>Well Done!</strong>
-  You successfully read this important alert message.
 </alert>
  
 <alert type="info" >

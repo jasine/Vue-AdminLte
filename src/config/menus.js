@@ -7,28 +7,34 @@ module.exports = [
   },
   {
     name: '测试任务',
-    link: '/configurations',
+    link: '/tasks',
     icon: 'fa-cogs',
     child:[]
   },
   {
-    name: 'Users',
-    link: '/users',
-    icon: 'fa-user',
-    child: [
-    {
-      name: 'New',
-      link: '/user/new',
-      icon: 'fa-circle-o',
-    },
-    {
-      name: 'Lists',
-      link: '/users',
-      icon: 'fa-circle-o',
-      child:[]
+    name: '数据集管理',
+    link: '/data',
+    icon: 'fa-database',
+    child:[]
+  },
+  // {
+  //   name: 'Users',
+  //   link: '/users',
+  //   icon: 'fa-user',
+  //   child: [
+  //   {
+  //     name: 'New',
+  //     link: '/user/new',
+  //     icon: 'fa-circle-o',
+  //   },
+  //   {
+  //     name: 'Lists',
+  //     link: '/users',
+  //     icon: 'fa-circle-o',
+  //     child:[]
 
-    }
-    ]
-  }
+  //   }
+  //   ]
+  // }
   
 ]
